@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         while y < x && !esDivisible {
             if x % y == 0 {
                 esDivisible = true
-                textSolution.text = "El numero \(x) tiene divisores,por lo tanto no es primo 🚫"
+                textSolution.text = "El numero \(x) tiene divisores,por lo tanto no es primo!! 🚫"
             } else {
                 y += 1
                 textSolution.text = "El numero \(x) es primo 🆗 ¡No tiene divisores!"
