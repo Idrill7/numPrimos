@@ -40,7 +40,9 @@ class ViewController: UIViewController {
                 textSolution.text = "El numero \(x) es primo 🆗 ¡No tiene divisores!"
                     }
                 }
-            }
+        } else {
+            textSolution.text = " Inserta algun numero por favor "
+        }
         }
     }
 
